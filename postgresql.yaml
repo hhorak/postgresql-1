@@ -87,3 +87,7 @@ data:
         # This branch doesn't BR: systemtap(-devel), elinks which pulls in
         # loads of other junk
         ref: private-f27-modules
+      tcl-pgtcl:
+        buildorder: 4
+        rationale: 'Runtime dependency (for postgresql-pltcl)'
+        ref: f26
