@@ -26,7 +26,7 @@ module:
         stop: systemctl stop postgresql
         status: systemctl status postgresql
         repos:
-            - https://kojipkgs.fedoraproject.org/repos/module-d87b0b15567e47f3-build/latest/x86_64/
+            - https://kojipkgs.fedoraproject.org/compose/latest-Fedora-Modular-26/compose/Server/x86_64/os/
 test:
     process_running:
         - |
