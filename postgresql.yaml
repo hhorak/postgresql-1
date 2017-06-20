@@ -41,14 +41,11 @@ data:
       # part of base-runtime:
       # gettext
       # part of common-build-dependencies:
-      # autoconf(uuid), multilib-rpm-config
+      # autoconf(uuid), multilib-rpm-config, docbook-utils
       # part of shared-userspace:
       # docbook-dtds, docbook-style-dsssl, libxslt, perl-SGMLSpm, python2, tcl
       oniguruma:
         rationale: 'Build dependency (for slang)'
-        ref: f26
-      opensp:
-        rationale: 'Build dependency (for openjade)'
         ref: f26
       perl-Data-UUID:
         rationale: 'Build dependency (for uuid)'
@@ -59,10 +56,6 @@ data:
       telnet:
         rationale: 'Build dependency (for lynx)'
         ref: f26
-      openjade:
-        buildorder: 1
-        rationale: 'Build dependency (for docbook-utils)'
-        ref: f26
       slang:
         buildorder: 1
         rationale: 'Build dependency (for lynx)'
@@ -71,15 +64,10 @@ data:
         buildorder: 1
         rationale: 'Build dependency (for postgresql).'
         ref: f26
-      docbook-utils:
-        buildorder: 2
-        rationale: 'Build dependency (for postgresql)'
-        ref: f26
       lynx:
         buildorder: 2
         rationale: >-
           Build dependency (for postgresql),
-          runtime dependency (for docbook-utils)
         ref: f26
       postgresql:
         buildorder: 3
