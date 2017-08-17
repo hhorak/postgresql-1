@@ -1,27 +1,22 @@
-# PostgreSQL module
+**For F26 Boltron module, please see the [f26 branch](ref/f26).**
 
-[**Package DB** (owner)](https://admin.fedoraproject.org/pkgdb/package/modules/postgresql/) |
-[**F26 modulemd** (source)](http://pkgs.fedoraproject.org/cgit/modules/postgresql.git/tree/postgresql.yaml?h=f26) |
-[**PDC** (result)](https://pdc.fedoraproject.org/rest_api/v1/unreleasedvariants/?active=True&variant_name=postgresql)
+---
 
+# postgresql module(s)
 
-PostgreSQL is an object-relational Database Management System.
+Tracking the top-level packages of the postgresql module, or modules.
 
-## Current state
+The new modules target modular Fedora releases, starting with version 27.
 
-| State | Description |
-|-------|-------------|
-| ✓ YES | **Build passes** in the infra (all build deps are ok) |
-| ✓ YES | **Installs** on the Base Runtime (all runtime deps are ok) |
-| ✓ YES | **No bootstrap** - uses only proper modules |
-| ✓ YES | General **tests are in dist-git** |
-| ✓ YES | General **tests pass** |
-| ✓ YES | Meets the **Fedora Module Packaging Guidelines** |
-<!--
-| ✓ YES | yes! |
-| ✗ NO  | no! |
--->
+This main purpose of this repository is being the content tracker. The format is based on the [Host and Platform](https://github.com/fedora-modularity/hp) definition.
 
-### Notes
+## Content definition
 
-No notes are good notes.
+This section includes a list of modules along with toplevel binary input packages for package-level dependency resolution.
+
+### `postgresql`
+
+Lorem ipsum dolor sit amet.
+
+#### Main packages
+* `postgresql`, why it's here?
